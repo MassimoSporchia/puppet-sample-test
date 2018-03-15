@@ -1,0 +1,11 @@
+---
+message: "This node is using common data"
+
+classes:
+ - 'profile::base'
+
+ntp::autoupdate: false
+ntp::enable: true
+ntp::servers:
+  - 10.163.5.5 iburst
+ 
